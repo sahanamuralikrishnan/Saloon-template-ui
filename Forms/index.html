@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voter Registration Form</title>
+</head>
+<body>
+  <h2>Voter Registration Form</h2>
+  <link rel="stylesheet" href="style.css">
+  <form action="#" method="post">
+    
+    <!-- Full Name -->
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+    
+    <!-- Age -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="18" required><br><br>
+    
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+    
+    <!-- Address -->
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="40" required></textarea><br><br>
+    
+    <!-- Voter ID -->
+    <label for="voterid">Voter ID Number:</label><br>
+    <input type="text" id="voterid" name="voterid" required><br><br>
+    
+    <!-- Submit -->
+    <input type="submit" value="Register">
+    
+  </form>
+</body>
+</html>

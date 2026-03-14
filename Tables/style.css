@@ -1,0 +1,32 @@
+table
+{
+    border:10px black solid;
+    border-collapse: collapse;
+    width-50%;
+    background-color: rgb(121, 219, 123);
+}
+th,td
+{
+    border:9px solid black;
+    padding:8px;
+    text-align: center;
+}
+th 
+{
+    text-decoration: underline
+}
+tr :hover {
+    background-color: aqua;
+}
+tr
+{
+    transition: all 0.3s ease;
+}
+table tr:nth-child(3) 
+{
+  background-color: pink;
+}
+table tr:nth-child(4)
+{
+    background-color: bisque;
+}

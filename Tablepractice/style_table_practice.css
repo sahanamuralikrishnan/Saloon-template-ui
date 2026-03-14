@@ -1,0 +1,34 @@
+/* #MainTitle {             using id delector */
+  /* color: darkblue;         */
+  /* text-align: center;     */
+  /* font-size: 40px;         */
+  /* font-family: serif;  */
+  /* text-decoration: underline; */
+}
+
+/* .title {                          using class selctor */
+  /* color: rgb(0, 139, 88); */
+  /* text-align: center; */
+  /* font-size: 30px; */
+}
+
+* {
+  /* background-color: pink;    using universal selector */
+  
+  
+}
+
+/* div p{                         using combining selectors */
+  /* color: purple; */
+}
+
+/* article p{ */
+  /* color: purple; */
+}
+body
+{
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 0 auto;
+}

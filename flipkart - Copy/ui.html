@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Commerce Demo</title>
+  <link rel="stylesheet" href="ui.css">
+</head>
+<body>
+  <h1>🛍️ My Shop</h1>
+  <input id="search" placeholder="Search products..." />
+  <button id="sort">Sort by Price</button>
+  <div id="products"></div>
+
+  <h2>🛒 Cart (<span id="cart-count">0</span>)</h2>
+  <div id="cart-items"></div>
+  <p>Total: ₹<span id="cart-total">0</span></p>
+<button class="Cart-icon">Your Cart</button>
+
+<div id="popup" style="display: none;">
+  <h3>Your Cart</h3>
+  <div id="cart-items"></div>
+  <p>Total: ₹<span id="cart-total">0</span></p>
+</div>
+
+  
+
+  <div id="loader">Loading products...</div>
+  <script src="ui.js"></script>
+  </body>
+</html>
+

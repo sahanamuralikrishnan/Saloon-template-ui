@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+        <div class="nav-secondary">
+            <a href="#">Search</a>
+            <a href="#">Kids</a>
+            <a href="#">Profile</a>
+        </div>
+    </header>
+
+    <!-- Hero Section --> -->
+    <section class="hero">
+        <div class="hero-content">
+            <h3>Unlimited movies, shows, and more
+                Starts at ₹149. Cancel at any time.</h3>
+            <button class="cta-btn">Get started</button>
+            </div>
+        </div>
+
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Content Rows -->
+    <div class="row-container">
+        <!-- Row 1 -->
+        <div class="movie-row">
+            <h2 class="row-title">Trending Now</h2>
+            <div class="row-posters">
+               <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWKicbnczWxCTw6KyJaol4LQhFsciREHDxuOCYMIvxIxdRmR16GX1-rHYY-H6POJD__iN6aCEQw4TLopq6XtOGUkzBqAQs6-hK4.jpg?r=05f" 
+               alt="Movie Poster" class="poster">
+               <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdMV-HZH6NUQ4JzFQwMEwjBSPGMpK6LyHgHQA--Ltd61GC5AD4uc7CTp_c7knmrBLo5he7BkKB1jK7q5vG4jZWaZRtHjWxxUTnczNbIDnZabra5ociBeiC-bcNRC1BMyf8Zl.jpg?r=f34" 
+               alt="Movie Poster" class="poster">   
+               <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXzrUYL8LR-RiyKhsV1Idpu5gIiBeEw1Hp6d1t5HJUnUttB_Htu04qDBsoe0GkC1hCrl3HM2iGQy9n5atVAyOwImpabobNDPuSM.jpg?r=51c" 
+               alt="Movie Poster" class="poster">   
+               <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYI-oe-LFYUW_KlQa9TEYZdLRTJJr6BKLiBPqsmQRBYVM0oa-s4xchx7rngIIGMfGUpuXYlESt2e6bfEDwHei9UxthJdj4kgftD8IXYduVLnswu-EYBIHdjJyjZXdoxImHZ9.jpg?r=355" 
+               alt="Movie Poster" class="poster">   
+               <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSxdyIrxY_AWO3O6Jd2NFarsA0_wMrpJEwRaJAF299Fpd5STXoQF5b0TZaHSTfTFOrQWoTX4oatYjfxvpfbZK66FjYYFE5cB5ZU.jpg?r=bf4" 
+               alt="Movie Poster" class="poster">   
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="movie-row">
+            <h2 class="row-title">Top Rated</h2>
+            <div class="row-posters">
+                <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcMaE6nIKIrGoIP671jKjEexfbgPcu77XrW4_V5Ygna9EoNFQd0qnnhGdFL9HRWIwxTejuwS2Ah79bDk7Q_5XjDl-CxHzc-xPF0.jpg?r=35e" 
+                alt="Movie Poster" class="poster">
+                <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWerf236gtLUUOozoh9YKedyOIPiwlDIQec3-XpQQLZvbou-wqDsjXhyXxeSKHDF3TyBYqqdhkyco6JvdSkTrDu4YvRR1Zv-rz0.jpg?r=bf9" 
+                alt="Movie Poster" class="poster">
+                <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfXS1yAFO_TWI_B7yMxlHA1GMmD0phfAUWmw33ktBN75hvlKyarvEhsgoB1SFgM2CawHAIdAT4WQgkf1FGnTRhwfEzS3O7OKpDo.jpg?r=4d2" 
+                alt="Movie Poster" class="poster">
+                <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABa7EfFRIXD4son8Hl7-swK7Wn1zb9Glj4vG9gLHk2AcKeiPE-ZJS9Ad_iacMz1lYvaz1pShDk4N5Qa-SedwTzU-b7DSnuTCp9Fg.jpg?r=bdb" 
+                alt="Movie Poster" class="poster">
+                <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQWm70jjOV37OrAL1wsGxZo-HXN-gL1x0t7p_n-QwrKL4CX43qswlhdxVMLJU-BFQBaob7Ehz29nQLgzKCQoCvCIJx9VbtITulW9XDh2atCxgFtaNF4r_U18E1Masz5BOwih.jpg?r=be8" 
+               alt="Movie Poster" class="poster">
+                
+            </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="movie-row">
+            <h2 class="row-title">Action Thrillers</h2>
+            <div class="row-posters">
+                <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABeXyn-dC_BAsNEjESGBx-njCwZjd6rWSs1wqB56DBoM1uw5osqK_1qm_GgZwbtyDZAFGab8uF29LzOn8x163aTe4b1I2NWMBTCd9.jpg?r=c69" 
+                alt="Netflix Poster" class="poster">
+                <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXHBWtXMtvrWtEyQpZcG22WmtzXTIfHt1-jQCecIEawfizZwG78-aV0TccXk2AlMeANS2hLV3dj_8pPF2qbBURnE6wzJOpr92WxN.jpg?r=4bb" 
+                alt="Netflix Poster" class="poster">
+                <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRpOnhTxdBD6UL-IVZfDGqIAVinBoW1ksEEROC4MAqJNTTil0YVN1z9x1xAP3sG3TXs06WO424nwvJ_nxIK94MUssU5L_pbD3kg9.jpg?r=16b" 
+                alt="Netflix Poster" class="poster">
+                <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQJpOfBOmORc_2SELauaoX1Q6wTUM50348mRQVyc0ewZjdq1Prp-8r1iV4HJ0mVVIUj_8na0kvCmpLIq4c-a2n3ZLJZkUvcbQ-fS.jpg?r=0ab" 
+                alt="Netflix Poster" class="poster">
+                <img src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSAR-nQuPctru30xvx15e21o7kXSsraJdBe6hdZ1-AqYz7t588Qso4FYQgxgaXvsHzssh5BOjUcxdrStWZ__JHR0hRB1IKIwTYkM7jVouMg6Z5FH9fpuLMoC_K1ZNesmK21H4A.jpg?r=53a" 
+                alt="Netflix Poster" class="poster">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">Questions? Call 000-800-919-1743</a>
+            <a href="#">Audio and Subtitles</a>
+            <a href="#">Media Center</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Audio Description</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Legal Notices</a>
+            <a href="#">Help Center</a>
+            <a href="#">Jobs</a>
+            <a href="#">Cookie Preferences</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Corporate Information</a>
+        </div>
+        <p class="copyright">&copy; 2024 Netflix Clone Inc.</p>
+    </footer>
+</body>
+</html>

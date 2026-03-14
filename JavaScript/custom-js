@@ -1,0 +1,16 @@
+const dots = document.querySelector('.dots');
+const popup = document.getElementById('popup');
+
+// Toggle popup on dots click
+dots.addEventListener('click', (e) => {
+    e.stopPropagation(); // Prevent immediate closing
+    popup.style.display = 'flex';
+});
+
+// // Close popup when clicking outside
+// document.addEventListener('click', (e) => {
+//     if (!popup.contains(e.target) && !dots.contains(e.target)) {
+//         popup.style.display = 'none';
+//     }
+// });   
+

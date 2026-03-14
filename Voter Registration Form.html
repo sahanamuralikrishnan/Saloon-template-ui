@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Voter Registration Form</title>
+</head>
+<body>
+  <h2>Voter Registration Form</h2>
+  <form action="http://127.0.0.1:5500/index.html#" method="post">
+    
+    <!-- Full Name -->
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required=""><br><br>
+    
+    <!-- Age -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="18" required=""><br><br>
+    
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+    
+    <!-- Address -->
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="40" required=""></textarea><br><br>
+    
+    <!-- Voter ID -->
+    <label for="voterid">Voter ID Number:</label><br>
+    <input type="text" id="voterid" name="voterid" required=""><br><br>
+    
+    <!-- Submit -->
+    <input type="submit" value="Register">
+    
+  </form>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+  
+  
+
+  <div>
+    <label for="fullname">Fullname:</label>
+    <input type="text" id="Fullname" name="fullname" required=""><br><br>
+  </div>
+
+
+  <!-----age-->
+  <div>
+    <label for="Age">Age:</label>
+    <input type="number" id="age" name="age" required=""><br><br>
+  </div>
+
+  <!---------Gender-->
+  <div>
+  <label for="Gender">Gender:</label><br>
+  <input type="Radio" id="Male" name="gender" value="Male">
+  <label for="Male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="Female">
+  <label for="Female">Female</label><br>
+  <input type="radio" id="Transgender" name="gender" value="Transgender">
+  <label for="Transgender">Transgender</label><br><br>
+</div>
+
+<!-----address-->
+<div>
+  <label for="Address">Address:</label><br>
+  <textarea id="Address" name="address" rows="10" cold="30" required=""></textarea><br><br>
+</div>
+
+<!------voter id number-->
+<div>
+  <label for="Voter id number">Voter id number:</label><br>
+  <input type="number" id="voterid" name="voterid" required=""><br><br>
+</div>
+
+<div>
+  <button>Register</button>
+</div></body></html>

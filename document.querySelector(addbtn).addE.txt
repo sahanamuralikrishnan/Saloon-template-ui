@@ -1,0 +1,13 @@
+document.querySelector("addbtn").addEventListener("click", function(){
+inputField=document.queryselector("mealinput");
+inputvalue=inputfield.value.trim();
+
+if(inputvalue === "") return;
+
+const li = document.createElement("li");
+li.innerHtml = '${inputvalue}<button class="remove-btn>-</button>;
+
+
+https://cdnjs.cloudfare.com/ajax/libs/three.js/r128/three.min.js
+
+
